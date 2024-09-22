@@ -1,0 +1,26 @@
+[
+    {
+        "id": "57514eb4bb1b3907",
+        "type": "http request",
+        "z": "8e18a93c46f9e4b9",
+        "name": "Get Exchange Rates",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://v6.exchangerate-api.com/v6/7a2b11cfb10decefb9fed8b6/latest/USD",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 620,
+        "y": 180,
+        "wires": [
+            [
+                "8c2e227cdea2fea5"
+            ]
+        ]
+    }
+]
